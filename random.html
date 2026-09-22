@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="‎" />
+    <meta property="og:description" content=" " />
+    <meta property="og:image" content="https://winsport.live/vf5/logo.jpg" />
+    <meta property="og:url" content="https://winsport.live/vf5" />
+    <meta property="og:type" content="website" />
+
+    <!-- App Links -->
+    <meta property="al:ios:url" content="shopee://">
+    <meta property="al:ios:app_store_id" content="453010108">
+    <meta property="al:ios:app_name" content="Shopee">
+    
+    <meta property="al:android:url" content="shopee://">
+    <meta property="al:android:package" content="com.shopee.vn">
+    <meta property="al:android:app_name" content="Shopee">
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #ffffff;
+        }
+    </style>
+
+    <script>
+        // Danh sách link aff Shopee
+        const shopeeLinks = [
+            "https://s.shopee.vn/20vdGb21dH",
+            "https://s.shopee.vn/2LYUUwqMom",
+            "https://s.shopee.vn/8V97qK5kUo",
+            "https://s.shopee.vn/3g3s5U8qPf",
+            "https://s.shopee.vn/AKam1lrO7s",
+            "https://s.shopee.vn/9V1f2IX5E4",
+            "https://s.shopee.vn/6fhTfAtWwb",
+            "https://s.shopee.vn/3g3s5jKJby",
+            "https://s.shopee.vn/3VkRtifFIG",
+            "https://s.shopee.vn/1136v8jXyG"
+        ];
+
+        function getRandomLink() {
+            const randomIndex = Math.floor(Math.random() * shopeeLinks.length);
+            return shopeeLinks[randomIndex];
+        }
+
+        // Delay nhẹ 300ms
+        setTimeout(function() {
+            window.location.replace(getRandomLink());
+        }, 300);
+    </script>
+</head>
+<body>
+</body>
+</html>
